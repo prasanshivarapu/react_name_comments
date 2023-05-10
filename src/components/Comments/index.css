@@ -1,0 +1,113 @@
+/* Write your CSS here */
+.greet1 {
+  padding: 55px;
+  background-color: #dee0e3;
+  min-height: 100vh;
+  border: solid;
+  padding-right: 225px;
+  border: solid;
+}
+.greet2 {
+}
+.comments {
+  font-size: 39px;
+}
+.say {
+  font-size: 20px;
+  color: #334155;
+}
+
+.input1 {
+  border-width: 0.1px;
+  border-color: #cbd2d9;
+  height: 35px;
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.input2 {
+  border-color: #94a3b8;
+  border-width: 0.1px;
+  height: 155px;
+  max-height: 200px;
+  width: 300px;
+  max-width: 400px;
+  padding: 5px;
+}
+.greet3 {
+  display: flex;
+  justify-content: space-between;
+
+  padding-right: 80px;
+}
+.image {
+  height: 300px;
+  padding-top: 25px;
+}
+.button {
+  background-color: rgb(56, 118, 233);
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  height: 25px;
+  cursor: pointer;
+}
+.separator {
+  border-color: #cbd2d9;
+}
+.greet5 {
+  display: flex;
+}
+.zero {
+  background-color: blue;
+  width: 25px;
+  color: white;
+  text-align: center;
+  margin-right: 5px;
+}
+.rimage {
+  color: white;
+  background-color: blue;
+  border-radius: 35px;
+  width: 45px;
+  height: 45px;
+
+  text-align: center;
+  padding-top: 8px;
+  margin-right: 2px;
+}
+.rheading {
+  font-size: 25px;
+}
+.less {
+  color: #94a3b8;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+.greet6 {
+  display: flex;
+}
+.para2 {
+  padding-left: 30px;
+  color: #475569;
+}
+.greet7 {
+  display: flex;
+}
+.imagelike {
+  height: 20px;
+  margin: 15px;
+}
+.greet8 {
+  display: flex;
+  justify-content: space-between;
+
+  padding-right: 10px;
+  padding-top: 9px;
+}
+.delete {
+  height: 25px;
+  margin: 8px;
+}
