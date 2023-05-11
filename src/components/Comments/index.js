@@ -71,11 +71,10 @@ class App extends Component {
     const leng = initialList.length
     return (
       <div className="greet1">
-        <h1 className="comments"> Comments</h1>
-
-        <form className="greet2" onSubmit={this.addbutton}>
-          <div className="greet3">
-            <div>
+        <div className="greet0">
+          <h1 className="comments"> Comments</h1>
+          <div className="commentscontainer">
+            <form className="form" onSubmit={this.addbutton}>
               <p className="say">Say somthing about 4.0 technologies</p>
               <input
                 className="input1"
@@ -84,33 +83,31 @@ class App extends Component {
                 value={name}
                 placeholder="your name"
               />
-              <br />
+
               <textarea
                 className="input2"
                 onChange={this.input2}
                 value={commint}
                 placeholder="Your Comment"
               />
-              <br />
+
               <button type="submit" className="button">
                 Add Comment
               </button>
-            </div>
+            </form>
+
             <img
               className="image"
               src="https://assets.ccbp.in/frontend/react-js/comments-app/comments-img.png"
               alt="comments"
             />
           </div>
-        </form>
+          <hr className="separator" />
+          <div className="greet5">
+            <p className="zero">{leng}</p>
+            <p>Comments</p>
+          </div>
 
-        <hr className="separator" />
-        <div className="greet5">
-          <p className="zero">{leng}</p>
-          <p>Comments</p>
-        </div>
-
-        <div>
           {initialList.map(each => (
             <CommentItem
               happy={each}
